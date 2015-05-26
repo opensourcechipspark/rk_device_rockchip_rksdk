@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<alarm-package>
+<app package="com.google.android.gsf"/>
+<!--You can be as the following settings to filter the sleep wake up -->
+<!--<app package="com.google.android.apps.maps"/>
+<app package="com.android.vending"/>
+<app package="com.android.phone"/>
+<app package="com.google.android.partnersetup"/>
+<app package="com.google.android.gms"/>
+<app package="com.google.process.location"/>-->
+</alarm-package>
