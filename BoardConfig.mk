@@ -106,9 +106,9 @@ TARGET_EXTRA_CFLAGS += $(call cc-option,-mtune=cortex-a9,$(call cc-option,-mtune
 
 # sensors
 BOARD_SENSOR_ST := true
-#BOARD_SENSOR_COMPASS_AK8963 := true    #if use akm8963
-#BOARD_SENSOR_ANGLE := true		#if need calculation angle between two gsensors
-#BOARD_SENSOR_CALIBRATION := true	#if need calibration
+BOARD_SENSOR_COMPASS_AK8963 := true    #if use akm8963
+BOARD_SENSOR_ANGLE := true		#if need calculation angle between two gsensors
+BOARD_SENSOR_CALIBRATION := true	#if need calibration
 #BOARD_SENSOR_MPU := true               #if use mpu
 #BOARD_USES_GENERIC_INVENSENSE := false #if use mpu
 
